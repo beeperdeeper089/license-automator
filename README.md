@@ -1,5 +1,9 @@
 # license-automator
-Automate putting licenses into all your C++ headers and source files!
+Automate putting licenses into all your C++ headers and source files! 
+
+This project will recursively go through directories looking for files with the ``.cpp`` or ``.hpp`` file endings, although more flexibility will be available in the future. 
+
+Each file will be evaluated to see if it contains the old license (optional), and if found it will be replaced by the new license, else, if an old license is not specified, it will just append the new license to the beginning of the file.
 
 This uses Python **3**
 
