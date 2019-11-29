@@ -12,6 +12,8 @@ This uses Python **3**
 ### Step 1
 Create a file with the license you want to put in all the files. A tip is to add the comment "operator" that you prefer to use, such as a ``//`` before each line.
 
+**Put 2 extra lines at the bottom of the license file. Otherwise, it will not work and you will get errors.**
+
 ### Step 2
 Run the Python script from the directory you are wanting to add licenses to the files from. Use the following command line arguments:
 
